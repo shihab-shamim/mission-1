@@ -6,6 +6,7 @@ class Node{
 }
  
 const head=new  Node(10)
+// * {value:20,next:null}
 head.next=new Node(20)
 head.next.next=new Node(30)
 
